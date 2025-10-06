@@ -16,8 +16,10 @@ If you'd like to contribute, please check the [contribution guidelines](CONTRIBU
 - [Resources](#resources)
 - [Utilities](#utilities)
   - [Assertions](#assertions)
-  - [Data Structures](#data-structures)
+  - [Build Tools](#build-tools)
   - [Command Line Interfaces (CLI)](#command-line-interfaces-cli)
+  - [Configuration](#configuration)
+  - [Data Structures](#data-structures)
   - [ESLint Plugins](#eslint-plugins)
   - [File System](#file-system)
   - [Git Hooks](#git-hooks)
@@ -39,6 +41,30 @@ TODO
 
 - [tiny-invariant](https://github.com/alexreardon/tiny-invariant) - A function for assertions.
 
+### Build Tools
+
+- [rolldown](https://github.com/rolldown/rolldown) - Fast bundler (`rollup` alternative).
+- [tsdown](https://github.com/rolldown/tsdown) - Library bundler based on Rolldown.
+- [zshy](https://github.com/colinhacks/zshy) - General purpose, bundler-free build tool.
+
+### Command Line Interfaces (CLI)
+
+- [ansis](https://github.com/webdiscus/ansis) - Terminal output formatting with ANSI colors and styles.
+- [clack](https://github.com/bombshell-dev/clack) - CLI framework for building interactive prompts.
+- [fast-string-width](https://github.com/fabiospampinato/fast-string-width) - Terminal string visual width utility.
+- [fast-slice-ansi](https://github.com/43081j/fast-slice-ansi) - String slicing with ANSI support.
+- [fast-wrap-ansi](https://github.com/43081j/fast-wrap-ansi) - Word wrapping with ANSI support.
+- [mri](https://github.com/lukeed/mri) - Command line arguments parser.
+- [nanospinner](https://github.com/usmanyunusov/nanospinner) - CLI spinner library.
+- [picocolors](https://github.com/alexeyraspopov/picocolors) - Terminal output formatting with ANSI colors and styles.
+- [picospinner](https://github.com/PondWader/picospinner) - CLI spinner library.
+- [sade](https://github.com/lukeed/sade) - CLI arguments and usage builder.
+
+### Configuration
+
+- [confbox](https://github.com/unjs/confbox) - Zero-dependency parsing and serialization for YAML, TOML, JSONC, JSON5, INI, and JSON.
+- [lilconfig](https://github.com/antonk52/lilconfig) - Configuration loader.
+
 ### Data Structures
 
 - [dequal](https://github.com/lukeed/dequal) - Deep equal utility.
@@ -48,17 +74,6 @@ TODO
 - [neotraverse](https://github.com/PuruVJ/neotraverse) - Traverse and transform objects by visiting every node on a recursive walk.
 - [pkg-types](https://github.com/unjs/pkg-types) - TypeScript types and utilities for package.json files.
 - [sort-object-keys](https://github.com/keithamus/sort-object-keys) - Sort object keys with optional key list specification.
-
-### Command Line Interfaces (CLI)
-
-- [ansis](https://github.com/webdiscus/ansis) - Terminal output formatting with ANSI colors and styles.
-- [clack](https://github.com/bombshell-dev/clack) - CLI framework for building interactive prompts.
-- [fast-string-width](https://github.com/fabiospampinato/fast-string-width) - Terminal string visual width utility.
-- [mri](https://github.com/lukeed/mri) - Command line arguments parser.
-- [nanospinner](https://github.com/usmanyunusov/nanospinner) - CLI spinner library.
-- [picocolors](https://github.com/alexeyraspopov/picocolors) - Terminal output formatting with ANSI colors and styles.
-- [picospinner](https://github.com/PondWader/picospinner) - CLI spinner library.
-- [sade](https://github.com/lukeed/sade) - CLI arguments and usage builder.
 
 ### ESLint Plugins
 
@@ -91,16 +106,19 @@ TODO
 
 ### Project Tools
 
+- [actions-up](https://github.com/azat-io/actions-up) - CLI tool for keeping GitHub Actions up to date.
 - [cpx2](https://github.com/bcomnes/cpx2) - Copy file globs with optional change watching.
 - [knip](https://github.com/webpro/knip) - Find unused files, dependencies and exports in TypeScript and JavaScript projects.
+- [multiocular](https://github.com/multiocular-com/multiocular) - Review dependency changes.
 - [npm-run-all2](https://github.com/bcomnes/npm-run-all2) - CLI tool to run multiple npm scripts in parallel or sequential.
 - [premove](https://github.com/lukeed/premove) - Utility to remove items recursively.
+- [taze](https://github.com/antfu-collective/taze) - CLI tool for keeping dependencies up to date.
 - [wireit](https://github.com/google/wireit) - Upgrade npm scripts with enhanced capabilities.
 
 ### Parsing
 
-- [yaml](https://github.com/eemeli/yaml) - JavaScript parser and stringifier for YAML.
 - [parse5](https://github.com/inikulin/parse5) - Fast full-featured HTML parser.
+- [yaml](https://github.com/eemeli/yaml) - JavaScript parser and stringifier for YAML.
 
 ### Process Execution
 
